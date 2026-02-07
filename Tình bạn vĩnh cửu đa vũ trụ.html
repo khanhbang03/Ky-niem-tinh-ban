@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tình bạn vĩnh cửu đa vũ trụ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            background: radial-gradient(circle at center, #000000, #090979, #020024);
+        }
+
+        /* Hiệu ứng sao */
+        .stars {
+            position: fixed;
+            width: 200%;
+            height: 200%;
+            background: url("https://www.transparenttextures.com/patterns/stardust.png");
+            animation: moveStars 120s linear infinite;
+            opacity: 0.4;
+            z-index: -1;
+        }
+
+        @keyframes moveStars {
+            from { transform: translate(0, 0); }
+            to { transform: translate(-1000px, -1000px); }
+        }
+
+        .container {
+            padding: 110px 20px;
+            animation: fadeIn 3s ease;
+        }
+
+        h1 {
+            font-size: 58px;
+            text-shadow: 0 0 30px rgba(255,255,255,0.9);
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-bottom: 70px;
+            color: #d0e6ff;
+        }
+
+        .names {
+            font-size: 26px;
+            line-height: 2.2;
+            background: rgba(255,255,255,0.07);
+            display: inline-block;
+            padding: 50px 80px;
+            border-radius: 35px;
+            box-shadow: 0 35px 80px rgba(0,0,0,0.8);
+        }
+
+        .quote {
+            margin-top: 80px;
+            font-size: 34px;
+            font-weight: bold;
+            color: #ffd700;
+            text-shadow: 0 0 25px gold;
+        }
+
+        .video-link {
+            margin-top: 100px;
+        }
+
+        .video-link a {
+            display: inline-block;
+            padding: 22px 45px;
+            font-size: 22px;
+            color: white;
+            background: linear-gradient(45deg, #ff00cc, #3333ff, #00ffff);
+            border-radius: 20px;
+            text-decoration: none;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .video-link a:hover {
+            transform: scale(1.18);
+            box-shadow: 0 30px 70px rgba(0,0,0,0.95);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(100px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="stars"></div>
+
+<div class="container">
+    <h1>🌌 KỶ NIỆM 9 TRIỆU TỈ TỈ TỈ TỈ TỈ TỈ TỈ TỈ TỈ NĂM 🌌</h1>
+    <h2>Tình bạn tồn tại ngoài không gian, vượt khỏi thời gian, đứng trên mọi định luật vũ trụ</h2>
+
+    <div class="names">
+        anh <b>Nguyễn Khánh Bằng</b><br>
+        anh <b>Trần Đức Mạnh</b><br>
+        anh <b>Phạm Hoàng Hải</b>
+    </div>
+
+    <div class="quote">
+        “Đưa tay đây nào, mãi bên nhau bạn nhé.” 🤝✨
+    </div>
+
+    <div class="video-link">
+        <p>🎬 Cánh cổng ký ức vĩnh hằng:</p>
+        <a href="https://www.youtube.com/watch?v=TpmVzBcP70U" target="_blank">
+            Mở video huyền thoại
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
