@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỷ niệm 2 tỉ năm tình bạn</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: radial-gradient(circle at bottom, #000428, #004e92);
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* Hiệu ứng nền ánh sáng */
+        .glow {
+            position: fixed;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.08) 10%, transparent 10%);
+            background-size: 50px 50px;
+            animation: move 40s linear infinite;
+            z-index: -1;
+        }
+
+        @keyframes move {
+            from { transform: translate(0,0); }
+            to { transform: translate(-500px,-500px); }
+        }
+
+        .container {
+            padding: 90px 20px;
+            animation: fadeIn 2s ease;
+        }
+
+        h1 {
+            font-size: 54px;
+            margin-bottom: 10px;
+            text-shadow: 0 10px 30px rgba(0,0,0,0.7);
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-bottom: 60px;
+            color: #cce7ff;
+        }
+
+        .names {
+            font-size: 26px;
+            line-height: 2;
+            background: rgba(255,255,255,0.07);
+            display: inline-block;
+            padding: 40px 65px;
+            border-radius: 30px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+        }
+
+        .quote {
+            margin-top: 70px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #ffd700;
+            text-shadow: 0 0 15px rgba(255,215,0,0.7);
+        }
+
+        .video-link {
+            margin-top: 80px;
+        }
+
+        .video-link a {
+            display: inline-block;
+            padding: 18px 36px;
+            font-size: 22px;
+            color: white;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            border-radius: 16px;
+            text-decoration: none;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .video-link a:hover {
+            transform: scale(1.12);
+            box-shadow: 0 20px 45px rgba(0,0,0,0.8);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(60px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="glow"></div>
+
+<div class="container">
+    <h1>🌠 KỶ NIỆM 2 TỈ NĂM TÌNH BẠN 🌠</h1>
+    <h2>Tình bạn huyền thoại – tồn tại trước cả lịch sử trái đất</h2>
+
+    <div class="names">
+        anh <b>Nguyễn Khánh Bằng</b><br>
+        anh <b>Trần Đức Mạnh</b><br>
+        anh <b>Phạm Hoàng Hải</b>
+    </div>
+
+    <div class="quote">
+        “Đưa tay đây nào, mãi bên nhau bạn nhé.” 🤝✨
+    </div>
+
+    <div class="video-link">
+        <p>🎬 Video kỷ niệm:</p>
+        <a href="https://www.youtube.com/watch?v=TpmVzBcP70U" target="_blank">
+            Xem video huyền thoại
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
